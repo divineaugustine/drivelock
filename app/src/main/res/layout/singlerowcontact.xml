@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/patchselector"
+    android:padding="5dp" >
+
+
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#000000"
+        android:typeface="sans"
+        android:textSize="20dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_weight="3"
+        android:layout_gravity="left"
+
+        android:shadowColor="#fefefe"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+
+        />
+    <Button
+        android:id="@+id/btCall"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:drawableStart="@android:drawable/ic_menu_call"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

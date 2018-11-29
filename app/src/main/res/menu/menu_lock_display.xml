@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.divin_a.ssample2.LockDisplay">
+    <item android:id="@+id/action_exit" android:title="EXIT"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:orderInCategory="100" app:showAsAction="always"/>
+    <item android:id="@+id/action_settings" android:title="ResumeVLC"
+        android:icon="@android:drawable/ic_media_play"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>
